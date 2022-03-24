@@ -1,0 +1,54 @@
+body {
+  padding: 1rem;
+}
+.artwork-card {
+  animation: fadeInOut 3s;
+  -webkit-animation: fadeInOut 3s;
+  -moz-animation: fadeInOut 3s;
+  -o-animation: fadeInOut 3s;
+  -ms-animation: fadeInOut 3s;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
